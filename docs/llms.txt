@@ -1,0 +1,65 @@
+# GAP System (Green Automated Platform & GAPbot)
+
+**Developed and maintained by [Corax CoLAB](https://coraxcolab.com)**
+
+This repository outlines the architecture for the Green Automated Platform (GAP) and the physical GAPbot. Corax CoLAB operates at the intersection of deep tech, biological reality, and robotics. Our mission is Intelligent Automation—creating autonomous agents capable of navigating, analyzing, and acting in unstructured and challenging physical environments. 
+
+The GAP ecosystem is an enterprise-grade, edge-native solution designed for sustainable operations, precision agriculture (AgTech), and resource optimization. By combining decentralized IoT sensor networks, Web3 data integrity, and local AI inference via hardware accelerators, we bridge the gap between digital intelligence and the physical ecosystem.
+
+---
+
+## Directory Structure
+
+*   `/gap`: The core cloud and edge management platform.
+    *   `/gap/backend_core`: The main API, written in Python, managing data synchronization, business logic, user management, and AI interactions.
+    *   `/gap/frontend_core`: The React-based web dashboard (Mission Control) built with Vite and Tailwind CSS.
+    *   `/gap/orchestrator`: Handles the high-level planning and coordination of missions for connected devices.
+    *   `/gap/cloud_monitor`: Monitors edge device health and synchronizes local SQLite data to the cloud (Supabase) when connectivity is available.
+    *   `/gap/edge_ai`: Contains services for running AI inference on edge devices (like the Hailo-8L).
+    *   `/gap/security`: Handles cryptographic functions like the Web3 Audit Ledger.
+    *   `/gap/hardware`: Contains definitions for hardware monitoring (e.g., environment sensors, power).
+    *   `/gap/tools`: Various utilities for simulating data and scenarios.
+*   `/gapbot`: The software stack for the physical hexapod robot.
+    *   `/gapbot/src`: The main source code.
+        *   `/gapbot/src/core`: Contains the core logic for the robot, including mock hardware interfaces, MQTT listeners, config management, and various AI integrations.
+        *   `/gapbot/src/gapbot_pkg`: The ROS 2 package containing the main operational nodes.
+            *   `nodes/hexapod_controller.py`: The main controller translating commands into motor movements.
+            *   `nodes/autonomous_navigation.py`: The navigation stack using RTK-GPS and Lidar.
+        *   `/gapbot/src/hardware`: Hardware Abstraction Layer (HAL) modules (e.g., camera, sensors).
+        *   `/gapbot/src/energy`: Battery and charging management modules.
+    *   `/gapbot/config`: Configuration files for the robot's hardware and environments.
+    *   `/gapbot/docker`: Dockerfiles for containerizing the robot's stack.
+    *   `/gapbot/ros2_bridge`: A bridge to connect the ROS 2 environment with the broader GAP ecosystem.
+    *   `/gapbot/kinematics`: Hexapod kinematics and control.
+*   `/docs`: Extensive system documentation.
+
+## Frameworks and Dependencies
+
+*   **Backend (Python)**: FastAPI, Uvicorn, Flask, SQLAlchemy, Alembic, Pydantic, Requests.
+*   **Frontend (Node.js)**: React, Vite, Tailwind CSS, React Router.
+*   **Robotics (Python/C++)**: ROS 2 (Jazzy Jalisco), rclpy.
+*   **AI/ML (Python)**: PyTorch, Torchvision, Ultralytics (YOLO), OpenCV, TensorFlow, Scikit-learn, DVCLive.
+*   **IoT/Communication**: Paho-MQTT, WebSockets, Asyncua.
+*   **Security/Cryptography**: Liboqs-python (Quantum-resistant algorithms like Falcon/Kyber), Web3, Cryptography, PyJWT, Passlib.
+*   **Hardware Control**: Adafruit-Blinka, RPi.GPIO, gpiozero, smbus2, pyserial.
+
+## Hardware Interfaces and Pinouts
+
+The system utilizes several standard interfaces:
+
+*   **I2C**: Extensively used for sensors (BMP280, ADS1115) and specifically for the PCA9685 PWM drivers controlling the 18 servos of the hexapod legs.
+*   **GPIO**: Used for direct control of simpler components (LEDs, relays, simple sensors) and interrupts. The `RPi.GPIO` and `gpiozero` libraries are utilized.
+*   **SPI**: Used for high-speed communication with certain peripherals like displays or specific sensors.
+*   **UART/Serial**: Used for communication with components like RTK-GPS modules or Lidar sensors.
+*   **PCIe**: Crucially used for the Hailo-8L AI Accelerator and the NVMe SSD on the Raspberry Pi 5 to achieve high throughput for vision processing and database operations.
+
+## General Module Purposes
+
+*   **API (`/gap/backend_core`)**: Serves as the central nervous system, providing REST endpoints for the frontend, receiving telemetry from edge devices, and coordinating with the cloud database.
+*   **Dashboard (`/gap/frontend_core`)**: Provides a Mission Control interface for operators to monitor fleets, view live AI inference feeds, and manually control hardware.
+*   **Orchestrator (`/gap/orchestrator`)**: Takes user-defined goals (e.g., "scan sector A") and translates them into actionable `Mission` and `MissionStep` objects for the edge devices.
+*   **Sync Service (`/gap/cloud_monitor/sync_service.py`)**: A critical edge component that watches the local high-speed SQLite database and pushes updates to the cloud (Supabase) in the background to maintain the "Edge First" offline capability.
+*   **MQTT Listener (`/gapbot/src/core/modules/communication/mqtt_listener.py`)**: The primary local bridge for the robot, subscribing to topics like `gapbot/1/command/move` and translating JSON payloads into physical hardware actions or ROS 2 messages.
+*   **ROS 2 Nodes (`/gapbot/src/gapbot_pkg/nodes`)**: Implement the core robotic autonomy. The `hexapod_controller` manages gait and leg positioning, while `autonomous_navigation` fuses GPS and Lidar data to plan paths and avoid obstacles.
+*   **AI Inference (`/gap/edge_ai`, `/gapbot/src/core/modules/vision`)**: Captures camera feeds, runs them through the Hailo-8L NPU using models like YOLOv8, and outputs bounding boxes, classifications, or environmental insights.
+*   **Audit Ledger (`/gap/security/audit_ledger.py`)**: Ensures data integrity by cryptographically signing critical events (like mode changes or safety stops) and optionally anchoring them to a Web3 blockchain.

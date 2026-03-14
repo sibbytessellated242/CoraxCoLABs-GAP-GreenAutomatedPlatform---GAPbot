@@ -1,6 +1,14 @@
 # ⚙️ Hardware Specifications: GAPbot
 
+<div align="center">
+  <img src="../assets/gap-logo.jpg" alt="GAP Logo" width="150" style="border-radius: 15px;" />
+</div>
+
 The GAPbot is a six-legged (hexapod) robotic platform designed for complex, unstructured terrains. The hardware stack is chosen for maximum throughput, edge AI capabilities, and precise physical actuation.
+
+<div align="center">
+  <img src="../assets/hero-gapbot.jpg" alt="GAPbot Hardware" width="80%" style="border-radius: 10px; margin: 20px 0;" />
+</div>
 
 ## Core Compute Node
 * **Processor:** Raspberry Pi 5 (16GB RAM)

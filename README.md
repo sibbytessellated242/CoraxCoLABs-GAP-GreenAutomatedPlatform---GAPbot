@@ -1,8 +1,12 @@
 <div align="center">
+  <img src="./assets/gap-logo.jpg" alt="GAP Logo" width="250" style="border-radius: 20px;" />
 
 # 🌿 GAP System & GAPbot Architecture
 
 **Intelligent Automation for the Physical World | By [Corax CoLAB](https://coraxcolab.com)**
+
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=129532&center=true&vCenter=true&width=600&lines=Intelligent+Automation+for+the+Physical+World;Edge-First+AI+and+Autonomous+Robotics;Harmonizing+Nature+with+Digital+Tech)](https://git.io/typing-svg)
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)](https://docs.ros.org/)
@@ -28,6 +32,11 @@
 ## 🚀 The Vision: Full-Stack of Matter
 
 At Corax CoLAB, we don't just design systems; we build them from the ground up to ensure our automated solutions are not just "smart," but ecologically sound. The GAP system optimizes resource flows through a decentralized network of IoT sensors, robust Edge AI, and autonomous robotics.
+
+<div align="center">
+  <img src="./assets/ai-concept.png" alt="GAP AI Concept" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <p><i>The future of Edge AI and ecological automation.</i></p>
+</div>
 
 <div align="center">
   <img src="./assets/dashboard-preview.png" alt="Mission Control Dashboard Preview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
@@ -95,6 +104,10 @@ Dive deeper into the GAP ecosystem architecture and specifications:
 ---
 
 ## 🤝 Collaborate with Corax CoLAB
+
+<div align="center">
+  <img src="./assets/coraxcolabloggarund.png" alt="Corax CoLAB Logo" width="150" />
+</div>
 
 Corax CoLAB is led by **Pelle Nyberg**—Deep Tech Developer, AI & Robotics Innovator, and Master Gardener. With a unique background spanning industrial quality management, forestry, and hardware-level coding, Corax CoLAB brings a holistic approach to Deep Tech and AgTech.
 

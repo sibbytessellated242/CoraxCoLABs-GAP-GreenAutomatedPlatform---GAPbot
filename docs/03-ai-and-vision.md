@@ -1,5 +1,9 @@
 # 👁️ AI & Vision: Real-Time Processing at the Edge
 
+<div align="center">
+  <img src="../assets/ai-concept.png" alt="AI & Vision Concept" width="100%" style="border-radius: 10px; margin-bottom: 20px;" />
+</div>
+
 The GAP system utilizes advanced Artificial Intelligence and Computer Vision to interpret and interact with its environment autonomously. We process data locally, eliminating latency and cloud dependency.
 
 ## 1. Edge-Native AI (Hailo-8L NPU)

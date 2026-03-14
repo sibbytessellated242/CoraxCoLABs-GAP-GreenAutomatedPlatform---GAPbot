@@ -1,8 +1,16 @@
 # 🌐 Platform Architecture: The Edge-First Approach
 
+<div align="center">
+  <img src="../assets/coraxcolabloggarund.png" alt="Corax CoLAB Logo" width="100" />
+</div>
+
 The Green Automated Platform (GAP) is built on a fundamental principle: **Biological environments lack reliable internet.** Therefore, the system is designed to be fully autonomous and "Edge-First."
 
 <img src="../assets/dashboard-preview.png" alt="Mission Control Dashboard Preview" width="100%" />
+
+<div align="center">
+  <img src="../assets/ai-concept.png" alt="Edge AI Architecture Concept" width="80%" style="border-radius: 10px; margin: 20px 0;" />
+</div>
 
 ## 1. Decentralized Edge Compute
 Unlike traditional cloud-dependent IoT systems, GAP processes critical data locally. The central API (`/gap/backend_core`) runs entirely on the physical edge device (e.g., the Raspberry Pi 5). 

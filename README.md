@@ -5,6 +5,18 @@
 
 **Intelligent Automation for the Physical World | By [Corax CoLAB](https://coraxcolab.com)**
 
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Mission Control CI](https://img.shields.io/github/actions/workflow/status/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/ci.yml?style=for-the-badge&logo=github&label=Build%20Status)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/actions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+[![Issues](https://img.shields.io/github/issues/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/issues)
+[![Forks](https://img.shields.io/github/forks/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/network/members)
+[![Stars](https://img.shields.io/github/stars/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/watchers)
+
+</div>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=129532&center=true&vCenter=true&width=700&lines=Intelligent+Automation+for+the+Physical+World;Edge-First+AI+and+Autonomous+Robotics;Harmonizing+Nature+with+Digital+Tech;Precision+Agriculture+%26+Deep+Tech)](https://git.io/typing-svg)
 
 ---

